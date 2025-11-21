@@ -33,3 +33,7 @@ Repository = "https://github.com/gongminmin/TRELLIS"
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["foo*"]
+namespaces = false
