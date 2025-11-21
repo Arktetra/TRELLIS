@@ -22,7 +22,6 @@ dependencies = [
   "pymeshfix",
   "igraph",
   "transformers",
-  "wheel",
   "spconv",
   "gradio"
 ]
