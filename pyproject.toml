@@ -1,0 +1,39 @@
+[project]
+name = "trellis"
+version = "0.1.0"
+requires-python = ">=3.8"
+dependencies = [
+  "torch",
+  "torchvision",
+  "xformers",
+  "pillow",
+  "imageio",
+  "imageio-ffmpeg",
+  "tqdm",
+  "easydict",
+  "opencv-python-headless",
+  "scipy",
+  "ninja",
+  "rembg",
+  "onnxruntime",
+  "trimesh",
+  "xatlas",
+  "pyvista",
+  "pymeshfix",
+  "igraph",
+  "transformers",
+  "wheel",
+  "spconv",
+  "gradio"
+]
+
+[project.urls]
+Repository = "https://github.com/gongminmin/TRELLIS"
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel",
+    "ninja"
+]
+build-backend = "setuptools.build_meta"
