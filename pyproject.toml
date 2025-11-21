@@ -31,9 +31,5 @@ dependencies = [
 Repository = "https://github.com/gongminmin/TRELLIS"
 
 [build-system]
-requires = [
-    "setuptools>=61.0",
-    "wheel",
-    "ninja"
-]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
