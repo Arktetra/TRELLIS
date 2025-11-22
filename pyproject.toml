@@ -33,6 +33,12 @@ Repository = "https://github.com/gongminmin/TRELLIS"
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[tools.setuptools]
+packages = ["flexicubes"]
+
+[tools.setuptools.package-dir]
+flexicubes = ["trellis/representation/mesh/flexicubes"]
+
 [tool.setuptools.packages.find]
 include = ["trellis"]
 namespaces = false
